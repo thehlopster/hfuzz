@@ -927,6 +927,7 @@ _newsite
 _newsletter
 _newsletters
 _next/../../../../../../../../../../etc/passwd
+_next/../../../../../../../../../etc/passwd
 _next/static/../server/pages-manifest.json
 _nipd
 _nocrawl
@@ -2207,6 +2208,7 @@ _zzConfig
 .children.1.json
 .children.json?FNZ.html
 .children.json?FNZ.ico
+.children.json/FNZ.css
 .children.json/FNZ.html
 .children.json/FNZ.ico
 .children.json/FNZ.png
@@ -3774,6 +3776,7 @@ _zzConfig
 .json_private_keys.json
 .json?FNZ.html
 .json?FNZ.ico
+.json/FNZ.css
 .json/FNZ.html
 .json/FNZ.ico
 .json/FNZ.png
@@ -5483,6 +5486,7 @@ _zzConfig
 /etc.children.json
 /etc.children.json?FNZ.html
 /etc.children.json?FNZ.ico
+/etc.children.json/FNZ.css
 /etc.children.json/FNZ.html
 /etc.children.json/FNZ.ico
 /etc.children.json/FNZ.png
@@ -39198,6 +39202,7 @@ CFC
 cfc.js
 cfcache
 cfcache.map
+CFCARD/images/SeleaCamera/%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc%2fpasswd
 cfchat
 cfcp.js
 cfcs
@@ -39565,6 +39570,7 @@ cgi-bin/emu/html/emumail.cgi
 cgi-bin/emumail.cgi
 cgi-bin/emumail/emumail.cgi
 cgi-bin/ExportAllSettings.sh
+cgi-bin/ExportLogs.sh
 cgi-bin/ezshopper/search.cgi
 cgi-bin/FileSeek.cgi
 cgi-bin/FileSeek2.cgi
@@ -39575,6 +39581,7 @@ cgi-bin/generate.cgi
 cgi-bin/getagent.cgi?type=s&xxxx
 cgi-bin/GetSrvInfo.exe
 cgi-bin/gH.cgi
+cgi-bin/guestimage.html
 cgi-bin/home
 cgi-bin/hsx.cgi
 cgi-bin/htimage.exe?2,2
@@ -39656,6 +39663,7 @@ cgi-bin/powerup/r.cgi
 cgi-bin/printenv
 cgi-bin/printenv.pl
 cgi-bin/printenv.tmp
+cgi-bin/privatekey.pem
 cgi-bin/probe.cgi
 cgi-bin/qmailadmin
 cgi-bin/qmailadmin/qmailadmin
@@ -46705,6 +46713,7 @@ config/cable.yml
 config/cache.php
 config/caching.php
 config/caddy/Caddyfile
+config/cam_portal.cgi
 config/clientdependency.config
 config/codeclimate.bat
 config/codeclimate.conf
@@ -49974,6 +49983,7 @@ cout.cgi
 cout.php
 covalent
 covenant
+covenantuser/login
 coveo
 cover
 cover_db
@@ -65373,6 +65383,7 @@ etc.children.1.json
 etc.children.json
 etc.children.json?FNZ.html
 etc.children.json?FNZ.ico
+etc.children.json/FNZ.css
 etc.children.json/FNZ.html
 etc.children.json/FNZ.ico
 etc.children.json/FNZ.png
@@ -65382,6 +65393,7 @@ etc.infinity.json
 etc.json
 etc.json?FNZ.html
 etc.json?FNZ.ico
+etc.json/FNZ.css
 etc.json/FNZ.html
 etc.json/FNZ.ico
 etc.xml
@@ -73573,6 +73585,7 @@ gallery.php
 gallery.swf
 gallery.xml
 gallery/zp
+gallery/zp-core/setup
 gallery/zp-core/setup/index.php
 gallery1
 gallery1.html
@@ -74356,6 +74369,7 @@ general.nsf
 general.php
 general.sql
 general/login.php
+general/status.html
 general/userinfo.php?UID=1
 generalAppC
 generalclasses
@@ -81241,6 +81255,8 @@ hp-special-fifty
 hp.htm
 hp.html
 hp.php
+hp/device/DeviceInformation/View
+hp/device/this.LCDispatcher
 hp/device/webAccess/index.htm?content=security
 hp1
 hp2
@@ -81576,6 +81592,7 @@ html/login.html
 html/password.html
 html/public/index.php
 html/setup.html
+html/skin/ric/C/config/default.config.json
 html/upload.asp
 html0
 html1
@@ -87610,6 +87627,7 @@ ip6tables-rules.v6
 ip6tables.conf
 ip6tables.rules
 ipa.js
+ipa/ui/
 ipac
 ipac20
 ipad
@@ -92617,6 +92635,7 @@ kf.html
 kfc
 KFC
 kfc_guide.pdf
+kfm/
 kfm/admin/
 kfm/index.php
 kfz
@@ -94741,6 +94760,7 @@ lcl
 lcled.js
 lclr.js
 lcm
+lcms
 lcms/index.php
 lcncview.js
 lcomernbootcamp/projbackend/.env
@@ -99300,6 +99320,8 @@ lu-gb
 lu.cfm
 lua.conf
 lua.h
+lua/.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2f.%2ffind_prefs.lua.css
+lua/%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2f%2e%2ffind_prefs.lua.css
 luac.out
 luaconf.h
 luaconf.js
@@ -108817,6 +108839,7 @@ naglafar_tests
 nagoya
 nagura.js
 nagusia.js
+nagvis/frontend/nagvis-js
 nagvis/frontend/nagvis-js/index.php
 naha
 nahara
@@ -109590,6 +109613,7 @@ net.js
 net.log
 net.php
 net.sql
+net/net/net.html
 net2
 net2ftp
 net2phone
@@ -115292,6 +115316,7 @@ openshare.js
 openshift
 openshift.js
 openshut.js
+opensis
 opensis/ajax.php?modname=misc/../../../../../../../../../../../../../etc/passwd&bypass=Transcripts.php
 opensis/index.php
 OpenSite.aspx
@@ -118104,6 +118129,7 @@ pages/includes/status-list-mo%3Ciframe%20src%3D%22javascript%3Aalert%28document.
 pages/invalidsession.jsp
 pages/login
 pages/login.htm
+Pages/login.htm
 pages/login/login.jsp
 pages/messageconfirmation.jsp
 pages/oneorderindex.jsp
@@ -123860,6 +123886,7 @@ pma/scripts/db___.init.php
 pma/scripts/setup.php
 pma/server_import.php
 PMA/server_import.php
+pma/setup
 pma/setup/index.php
 pma2
 pma2/index.php
@@ -125910,6 +125937,7 @@ presentation.html
 presentation.php
 presentation.pptx
 PRESENTATION/EPSONCONNECT
+PRESENTATION/HTML/TOP/PRTINFO.HTML
 presentational
 presentations
 Presentations
@@ -151193,6 +151221,7 @@ ssi.php
 SSI.php
 ssi.shtml
 SSI/Auth/ip_snmp.htm
+SSI/index.htm
 ssi/printenv.shtml?%3Cscript%3Ealert(%27xss%27)%3C/script%3E
 ssilki
 ssilki.htm
@@ -151259,6 +151288,7 @@ ssl_dhparam.pem
 ssl_error.log
 ssl_info.php
 ssl_key.pem
+ssl_key.txt
 ssl_library.py
 ssl_logs
 ssl_prefer_server_ciphers.conf
@@ -155629,6 +155659,7 @@ system.txt
 system.xlsx
 system.xml
 system/.env
+system/bgservlets/test.css
 system/cache
 system/config
 system/config.js
@@ -155669,6 +155700,7 @@ system/sling/cqform/defaultlogin.html
 system/sling/info.sessionInfo.json
 system/sling/info.sessionInfo.txt
 system/sling/loginstatus
+system/sling/loginstatus.css
 system/storage
 system/update.aspx
 system1.jsp
@@ -171641,6 +171673,7 @@ wbxml.js
 wc
 WC
 wc-logs
+wc.db
 wc.dll
 wc.js
 wc.php
@@ -174012,6 +174045,7 @@ WebUI
 webui/?g=sys_dia_data_down&file_name=../../../../../../../../../../../../c:/windows/win.ini
 webui/?g=sys_dia_data_down&file_name=../../../../../../../../../../../../etc/passwd
 webui/.env
+webui/device_info/device_info
 webui/file_guest?path=/var/www/documentation/../../../../../etc/passwd&flags=1152
 webuiutil.js
 webupdate
@@ -178959,6 +178993,7 @@ zenoss
 zenpage
 zenphoto
 zenphoto/zp
+zenphoto/zp-core/setup
 zenphoto/zp-core/setup/index.php
 zenpress
 zephyr
@@ -179577,9 +179612,11 @@ zorum
 zoznam
 zp
 zp-core
+zp-core/setup
 zp-core/setup/index.php
 zp-data
 zp/zp
+zp/zp-core/setup
 zp/zp-core/setup/index.php
 zpage
 zpartner
