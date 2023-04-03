@@ -1568,6 +1568,7 @@ _wiki
 _wine
 _wip
 _wizardimages
+_wl_cls_gen.jar
 _work
 _working
 _works
@@ -1806,6 +1807,7 @@ _zzConfig
 .ansible
 .ansible.cfg
 .antproxy.php
+.apache.env
 .apdisk
 .appledb
 .AppleDB
@@ -2544,11 +2546,13 @@ _zzConfig
 .dartignore
 .dat
 .data
+.database.env
 .datadog-agent/agent.yaml
 .DateJS.bak
 .DAV
 .davfs2
 .db
+.db.env
 .db.xml
 .db.yaml
 .db3
@@ -2559,6 +2563,7 @@ _zzConfig
 .dccache
 .DEB
 .debug
+.debug.env
 .debug.php.marks
 .default
 .dep.inc
@@ -2583,6 +2588,7 @@ _zzConfig
 .dir-locals.el
 .directory
 .divzero.log
+.django.env
 .djangoenv
 .DMG
 .dmp
@@ -2684,6 +2690,7 @@ _zzConfig
 .eggs
 .eggs/
 .eks
+.elastic.env
 .elasticbeanstalk
 .elasticbeanstalk/
 .elasticbeanstalk/config.yaml
@@ -2732,6 +2739,7 @@ _zzConfig
 .env.cashier.testing
 .env.ci
 .env.config
+.env.copy
 .env.debug
 .env.dev
 .env.dev.local
@@ -2781,6 +2789,7 @@ _zzConfig
 .env.ini
 .env.live
 .env.local
+.env.new
 .env.old
 .env.paddle
 .env.paddle.production
@@ -2795,6 +2804,7 @@ _zzConfig
 .env.prod.local
 .env.production
 .env.production.local
+.env.remote
 .env.sample
 .env.sample.php
 .env.sandbox
@@ -3839,6 +3849,7 @@ _zzConfig
 .landscape.yml
 .lanproxy/config.json
 .laravel-mix
+.laravel.env
 .last_cover_stats
 .lastlogin
 .ldb
@@ -4091,6 +4102,7 @@ _zzConfig
 .mypy.ini
 .mysql_history
 .mysql_history_backup
+.mysql.env
 .mysql.txt
 .nakignore
 .name
@@ -4117,6 +4129,7 @@ _zzConfig
 .next
 .nfs
 .nginx.conf
+.nginx.env
 .ngrok2/ngrok.yml
 .nia.cache
 .nightwatch-ignore-conf.js
@@ -4192,6 +4205,7 @@ _zzConfig
 .office365/credentials
 .oh-my-zsh
 .old
+.old.env
 .old.old
 .oldsnippets
 .oldstatic
@@ -4394,6 +4408,7 @@ _zzConfig
 .postcssignore
 .postcssrc
 .postcssrc.js
+.postgres.env
 .powenv
 .powerapps
 .powrc
@@ -5226,6 +5241,7 @@ _zzConfig
 .web.config.bck
 .web.config.swo
 .web.config.swp
+.web.env
 .webassets-cache
 .webconfig
 .weblog
@@ -8679,6 +8695,7 @@ $
 2021/wp-login.php
 2022
 2022_dump.sql
+2022-backup.zip
 2022.7z
 2022.dump.sql
 2022.html
@@ -8693,6 +8710,7 @@ $
 2022.txt.gz
 2022.zip
 2023
+2023-backup.zip
 2023.7z
 2023.html
 2023.rar
@@ -23263,6 +23281,7 @@ api.txt
 api.xlsx
 api.yaml
 api.yml
+api.zip
 api/
 api/__swagger__
 api/__swagger__/
@@ -24421,11 +24440,13 @@ app.conf
 app.config
 app.config.conf
 app.config.debug
+app.config.env
 app.config.js
 app.config.release
 app.config.transform
 app.db
 app.development.config
+app.env
 app.go
 app.hs
 app.html
@@ -29635,7 +29656,9 @@ backup-2019.sql
 backup-2020.sql
 backup-2021.sql
 backup-2022.sql
+backup-2022.zip
 backup-2023.sql
+backup-2023.zip
 backup-56bf2
 backup-9ea71
 backup-a30d8
@@ -29760,7 +29783,9 @@ backup2019.sql
 backup2020.sql
 backup2021.sql
 backup2022.sql
+backup2022.zip
 backup2023.sql
+backup2023.zip
 backup4
 backupconfig.php
 BackupConfig.php
@@ -31700,6 +31725,7 @@ beta.asp
 beta.htm
 beta.html
 beta.php
+beta.zip
 beta/.git/config
 beta1
 beta2
@@ -44455,6 +44481,7 @@ code.php
 code.png
 code.ts
 code.txt
+code.zip
 code/api/.env
 code/web/.env
 code2
@@ -46674,6 +46701,7 @@ config.xml
 config.yaml
 config.yml
 config.yml.templ
+config.zip
 config/
 config/.env
 config/.env.development
@@ -47410,6 +47438,7 @@ configs.js
 configs.php
 configs.py
 configs.rb
+configs.zip
 configs/app-config.json
 configs/authserversettings.config
 Configs/authServerSettings.config
@@ -47474,6 +47503,7 @@ configuration.xml
 configuration.xsl
 configuration.yaml
 configuration.yml
+configuration.zip
 configuration~
 configurations
 Configurations
@@ -53411,6 +53441,7 @@ DataBases
 databases.conf
 databases.yaml
 databases.yml
+databases.zip
 Databases/0791idc.mdb
 Databases/0791idc0.mdb
 Databases/21asp.mdb
@@ -56465,6 +56496,7 @@ dev!lz
 dev.7z
 dev.bat
 dev.conf
+dev.env
 dev.go
 dev.java
 dev.json
@@ -59070,6 +59102,7 @@ dotcloud.js
 dotcom
 dotdef.js
 DOTengineering.asp
+dotenv.env
 dotest.properties
 dotfiles
 dotfiles/.env
@@ -66719,6 +66752,7 @@ exportpng.js
 exports
 Exports
 exports.conf
+exports.zip
 ExportTemplates
 exportxml
 expose
@@ -72096,6 +72130,7 @@ framework.php
 framework.sql
 framework.yaml
 framework.yml
+framework.zip
 framework/yiic.php
 frameworks
 Frameworks
@@ -81505,6 +81540,7 @@ htdigest
 htdoc
 htdocs
 htdocs.php
+htdocs.zip
 htdocs/.env
 htdocs/scripts/setup.php
 hterror
@@ -86740,6 +86776,7 @@ INSTALL.X-PCONF
 INSTALL.X-RMA
 INSTALL.X-SURVEY
 install.xml
+install.zip
 install.zsh
 install/
 install/?step=1
@@ -100452,6 +100489,7 @@ main.d
 main.do
 main.elixir
 main.en.html
+main.env
 main.f
 main.go
 main.hs
@@ -100488,6 +100526,7 @@ main.tf
 main.tpl
 main.ts
 Main.vb
+main.zip
 main/.env
 main/blank?message_error=%3Cimg%20src%3Dc%20onerror%3Dalert(8675309)%3E
 main/blank?message_success=%3Cimg%20src%3Dc%20onerror%3Dalert(8675309)%3E
@@ -105681,6 +105720,7 @@ module.symvers
 Module.symvers
 module.txt
 module.xml
+module.zip
 module/?module=admin%2Fmodules%2Fmanage&id=test%22+onmousemove%3dalert(document.domain)+xx=%22test&from_url=x
 module/api.php?mobile/webNasIPS
 module/info/include/mysql/phpcms_info.sql
@@ -108011,6 +108051,7 @@ mycode
 mycollection
 mycompanies
 mycompany
+myconf.env
 myconfig.js
 myconfigs
 myconnect
@@ -129939,6 +129980,7 @@ public_files
 public_ftp
 public_html
 public_html.sql
+public_html.zip
 public_html/.env
 public_html/robots.txt
 public_hts
@@ -138329,6 +138371,7 @@ run.py
 run.sh
 run.txt
 run.xml
+run.zip
 run/.env
 run/build_info.html
 run/build_info.jsp
@@ -140703,6 +140746,7 @@ script.ts
 script.txt
 script.xlsx
 script.xml
+script.zip
 script/
 script/.env
 script/about
@@ -140802,6 +140846,7 @@ scripts.py
 scripts.rb
 scripts.ts
 scripts.txt
+scripts.zip
 scripts/.env
 scripts/14all-1.1.cgi
 scripts/14all.cgi
@@ -149554,6 +149599,7 @@ source.py
 source.rb
 source.txt
 source.xlsx
+source.zip
 source/inspector.html
 source/pack/upload/install/ios.php
 sourceart
@@ -155658,6 +155704,7 @@ system.ts
 system.txt
 system.xlsx
 system.xml
+system.zip
 system/.env
 system/bgservlets/test.css
 system/cache
@@ -161101,6 +161148,7 @@ token/refresh
 tokencsrf.js
 TokenElements
 tokengen.js
+tokenlite.zip
 tokenobj.js
 tokenops.js
 tokens
@@ -165196,6 +165244,7 @@ upload.ts
 upload.txt
 upload.txttm
 upload.xmltm
+upload.zip
 upload/.env
 upload/1.php
 upload/2.php
@@ -165327,6 +165376,7 @@ uploads.py
 uploads.rb
 uploads.ts
 uploads.txt
+uploads.zip
 uploads/
 uploads/.env
 uploads/3Dmodel.obj
@@ -167101,6 +167151,7 @@ v1.js
 v1.json
 v1.ts
 v1.txt
+v1.zip
 v1/
 v1/.env
 v1/account/login
@@ -167436,6 +167487,7 @@ v2.js
 v2.json
 v2.ts
 v2.txt
+v2.zip
 v2/
 v2/_catalog
 v2/.env
@@ -172254,6 +172306,7 @@ WEB-INF/jonas-web.xml
 web-inf/jrun-web.xml
 WEB-INF/jrun-web.xml
 WEB-INF/lib
+WEB-INF/lib/_wl_cls_gen.jar
 web-inf/liferay-display.xml
 WEB-INF/liferay-display.xml
 web-inf/liferay-layout-templates.xml
@@ -172439,6 +172492,7 @@ web-stats
 web-templates
 web-tv
 web-users-views
+web-variables.env
 web.7z
 web.asp
 web.aspx
@@ -174227,6 +174281,7 @@ welisten
 welive.js
 well
 well-baby-visits
+well-known.zip
 well-known/.env
 well-known/apple-app-site-association
 wellcome
