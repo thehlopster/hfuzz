@@ -25719,6 +25719,8 @@ app_datserletestudentpro.sql
 app_debug
 app_dev.php
 app_dev.php/_profiler
+app_dev.php/_profiler/open?file=app/config/parameters.yml
+app_dev.php/_profiler/phpinfo
 app_dev.php/cache
 app_dir/.env
 app_driver.py
