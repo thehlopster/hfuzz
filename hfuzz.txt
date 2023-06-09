@@ -6185,6 +6185,8 @@ _zzConfig
 (dtcc)
 (pty)
 @documentation
+/.env
+//.env
 /../../c:/windows/system32/drivers/etc/hosts
 /../app.js
 /////../../../etc/passwd
