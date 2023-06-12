@@ -67620,6 +67620,7 @@ engine.php
 engine.tar.gz
 engine.zip
 engine/.env
+engine/ajax/updates.php
 engine/classes/swfupload//swfupload_f9.swf
 engine/classes/swfupload//swfupload.swf
 engine/classes/swfupload/swfupload_f9.swf
