@@ -54360,6 +54360,8 @@ curl_error.log
 curl_error.txt
 curl_errors.log
 curl_errors.txt
+curl_response.log
+curl_response.txt
 curl_test.php
 curl.js
 curl.php
