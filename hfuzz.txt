@@ -90189,6 +90189,7 @@ index.php_old
 index.php-bak
 index.php::$DATA
 index.php.bak
+index.php.BAK
 index.php.old
 index.php.sample
 index.php.static
